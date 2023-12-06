@@ -15,7 +15,7 @@ namespace QuanLiNhaHang
 
         }
 
-        BUS_QuanLiNhaHang.BusDangNhap DN = new BUS_QuanLiNhaHang.BusDangNhap();
+        BusDangNhap DN = new BusDangNhap();
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {

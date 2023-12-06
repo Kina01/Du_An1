@@ -1,8 +1,7 @@
 .headerr {
-    width: 97.6vw;
+    width: 100vw;
     height: 9vh;
-    border: 2px solid;
-    border-radius:5px;
+    border-bottom: 2px solid;
     background-color: aquamarine;
     font-family: sans-serif;
     top: 0;

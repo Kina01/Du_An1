@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data;
 using DAL_QuanLiNhaHang;
 using DTO_QuanLiNhaHang;
 
 namespace BUS_QuanLiNhaHang
 {
-    public class BusThucDon
+    public class sa
     {
-        Dataprovider td = new Dataprovider();
+        Dataprovider dp = new Dataprovider();
 
-        public DataTable loadThucDon()
+        //Phương thức check Account
+        public bool CheckAccount(string tk, string mk)
         {
-            return td.loadThucDon();
+            return dp.CheckTK(tk, mk);
         }
     }
 }

@@ -18,12 +18,12 @@ namespace QuanLiNhaHang
             }
         }
 
-        //BUS_QuanLiNhaHang.BusThucDon thucDon = new BUS_QuanLiNhaHang.BusThucDon();
+        BusThucDon thucDon = new BusThucDon();
 
         public void LayDuLieuVaoGridView()
         {
-            //gvThucDon.DataSource = BUSThucDon.loadThucDon();
-            //gvThucDon.DataBind();
+            gvThucDon.DataSource =thucDon.loadThucDon();
+            gvThucDon.DataBind();
         }
     }
 }
