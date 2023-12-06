@@ -16,3 +16,9 @@ D:\TEST\ProjectFinalExam\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNha
 D:\TEST\ProjectFinalExam\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNhaHang.csproj.CoreCompileInputs.cache
 D:\TEST\ProjectFinalExam\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNhaHang.dll
 D:\TEST\ProjectFinalExam\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\DTO_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\DTO_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\DTO_QuanLiNhaHang\obj\Debug\DTO_QuanLiNhaHang.pdb

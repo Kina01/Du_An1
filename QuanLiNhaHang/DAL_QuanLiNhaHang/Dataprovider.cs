@@ -33,5 +33,21 @@ namespace DAL_QuanLiNhaHang
                 }
             }
         }
+
+        //Phương thức thực hiện truy vấn dữ liệu từ bang 'ThucDon' và trả về dữ liệu đó dưới dạng một đối tượng DataTable
+        public DataTable loadThucDon()
+        {
+            DataTable data = new DataTable();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string sql = "SELECT * FROM ThucDon";
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(data);
+            }
+            return data;
+        }
     }
 }

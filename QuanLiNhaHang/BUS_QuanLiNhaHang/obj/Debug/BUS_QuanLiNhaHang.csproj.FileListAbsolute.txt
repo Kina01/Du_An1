@@ -31,3 +31,14 @@ D:\TEST\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNha
 D:\TEST\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CopyComplete
 D:\TEST\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.dll
 D:\TEST\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CopyComplete
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.pdb

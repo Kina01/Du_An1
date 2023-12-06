@@ -3,11 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 using DAL_QuanLiNhaHang;
 using DTO_QuanLiNhaHang;
+
 namespace BUS_QuanLiNhaHang
 {
     class BusThucDon
     {
+        private Dataprovider ThucDon;
+
+        public BusThucDon()
+        {
+            ThucDon = new Dataprovider();
+        }
+
+        public DataTable loadThucDon()
+        {
+            return ThucDon.loadThucDon();
+        }
     }
 }
