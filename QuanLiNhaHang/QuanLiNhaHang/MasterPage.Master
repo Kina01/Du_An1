@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="QuanLiNhaHang.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="/CSS/layout.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="headerr">
+            <nav>
+                <div class="menu">
+                    <div class="Logo">
+                        <a href="TrangChu.aspx" runat="server">Nhà hàng Minh Phát </a>
+                    </div> 
+                    <ul>
+                        <li class="active" ><a href="TrangChu.aspx" runat="server"> Trang Chủ </a></li>
+                        <li><a href="ThucDon.aspx" runat="server"> Thực đơn </a></li>
+                        <li><a href="DatBan.aspx" runat="server"> Đặt bàn </a></li>
+                        <li><a href="ThanhToan.aspx" runat="server"> Thanh toán </a></li>
+                        <li><a href="DangNhap.aspx" runat="server" id="btnLogout"> Đăng xuất </a></li>        
+                    </ul>
+                </div>
+            </nav>
+       </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <h3>
+                Đây là phần footer
+            </h3>
+        </div>
+    </form>
+    
+</body>
+</html>

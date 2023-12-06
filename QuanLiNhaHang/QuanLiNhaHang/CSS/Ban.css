@@ -1,0 +1,51 @@
+.Ban table tr td {
+    width: 300px;
+    height: 10vh;
+    /* padding: 50px; */
+    border: 2px solid white;
+    margin-right: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #708090, #4682b4);
+    /* Hiệu ứng độ sâu */
+    font-size: 27px;
+    border-radius: 20px;
+}
+
+.Ban table tr td a {
+    color: #333;
+}
+
+.Ban table tr td a:hover {
+    color: #fff;
+    /* Đổi màu chữ khi hover */
+    background-color: #333;
+    /* Đổi màu nền khi hover */
+    border-radius: 4px;
+    /* Làm tròn góc */
+    transition: 0.2s;
+    /* Hiệu ứng chuyển động mềm mại */
+}
+
+.Ban table tr td a {
+    text-decoration: none;
+}
+
+.Ban table {
+    border-spacing: 60px;
+}
+
+.Ban {
+    width: 97.8vw;
+    height: 100vh;
+    z-index: 2;
+    margin-top: 68px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    background-image: url("./Image/Restaurants.png");
+    background-color: #708090;
+
+    /* Gradient màu nền */
+}

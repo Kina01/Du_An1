@@ -1,0 +1,62 @@
+.headerr {
+    width: 97.6vw;
+    height: 9vh;
+    border: 2px solid;
+    border-radius:5px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+}
+
+nav {
+    width: 100%;
+    padding: 8px 0;
+    
+}
+
+nav .Logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+nav .menu {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li .active a {
+    background: yellow;
+    color: #000;
+}
+
+.menu ul li a:hover {
+    background: yellow;
+    color: #000;
+
+}
