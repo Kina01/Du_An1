@@ -9,25 +9,33 @@ namespace DTO_QuanLiNhaHang
     public class DatBan
     {
         private string maDatBan;
-        private string maBan;
+        private string tenKhachHang;
         private string maKhachHang;
+        private string trangThai;
 
         public string MaDatBan { get => maDatBan; set => maDatBan = value; }
-        public string MaBan { get => maBan; set => maBan = value; }
+        public string TenKhachHang { get => tenKhachHang; set => tenKhachHang = value; }
         public string MaKhachHang { get => maKhachHang; set => maKhachHang = value; }
+        public string TrangThai { get => trangThai; set => trangThai = value; }
+
 
         public DatBan()
         {
             MaDatBan = "";
-            MaBan = "";
+            TenKhachHang = "";
             MaKhachHang = "";
+            TrangThai = "";
         }
 
-        public DatBan(string maDatBan, string maBan, string maKH)
+
+        public DatBan(string maDatBan, string tenKhachHang, string maKhachHang, string trangThai)
         {
             this.MaDatBan = maDatBan;
-            this.MaBan = maBan;
-            this.MaKhachHang = maKH;
+            this.TenKhachHang = tenKhachHang;
+            this.MaKhachHang = maKhachHang;
+            this.TrangThai = trangThai;
         }
+
+        
     }
 }

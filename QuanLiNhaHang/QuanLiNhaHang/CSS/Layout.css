@@ -1,5 +1,6 @@
+
 .headerr {
-    width: 100vw;
+    width: 97.8vw;
     height: 9vh;
     border-bottom: 2px solid;
     background-color: aquamarine;
@@ -7,10 +8,12 @@
     top: 0;
     z-index: 1;
     position: fixed;
+    border-radius:5px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 nav {
-    width: 100%;
+    width: 140%;
     padding: 8px 0;
     
 }
@@ -23,8 +26,9 @@ nav .Logo a {
 }
 
 nav .menu {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1400px;
+    /*margin: auto;*/
+    margin-left:120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,16 +41,21 @@ nav .menu {
 
 .menu ul li {
     list-style: none;
-    margin-left: 7px;
+    margin-left: 0px;
 }
 
 .menu ul li a {
     text-decoration: none;
-    color: black;
+    /*color: black;*/
     font-size: 18px;
     font-weight: 600;
     padding: 10px 20px;
     transition: all 0.3s ease;
+
+    position: relative;
+  color: #333; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .menu ul li .active a {
@@ -54,8 +63,58 @@ nav .menu {
     color: #000;
 }
 
-.menu ul li a:hover {
+/*.menu ul li a:hover {
     background: yellow;
     color: #000;
+}*/
 
-}
+
+
+
+    .menu ul li a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px; 
+        bottom: 0;
+        left: 0;
+        background-color: #3498db;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    }
+
+    .menu ul li a:hover {
+        color: black; 
+        background: yellow;
+    }
+
+        .menu ul li a:hover::before {
+            visibility: visible;
+            transform: scaleX(1);
+        }
+    /*.menu ul li a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px; 
+        bottom: 0;
+        left: 0;
+        background-color: #3498db; 
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    }
+
+        .menu ul li a::after:hover {
+            visibility: visible;
+            transform: scaleX(1);
+        }*/
+
+        .center-textbox {
+            text-align: center;
+            font-weight: bold;
+            margin-top: -2.5px;
+            font-size: 20px;
+            margin-left: 90px;
+        }

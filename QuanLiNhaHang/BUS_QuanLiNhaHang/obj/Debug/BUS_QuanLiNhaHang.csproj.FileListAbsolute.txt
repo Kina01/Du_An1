@@ -42,3 +42,14 @@ D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\De
 D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CopyComplete
 D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.dll
 D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CopyComplete
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.pdb

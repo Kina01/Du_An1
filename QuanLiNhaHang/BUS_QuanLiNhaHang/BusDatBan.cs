@@ -8,7 +8,10 @@ using DTO_QuanLiNhaHang;
 
 namespace BUS_QuanLiNhaHang
 {
-    class BusDatBan
+   public class busDatBan
     {
+        Dataprovider dp = new Dataprovider();
+
+        
     }
 }
