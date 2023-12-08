@@ -1,0 +1,306 @@
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.rsp
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.rsp
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.AppContext.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Collections.Immutable.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Console.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Compression.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.AccessControl.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Claims.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.ValueTuple.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.rsp
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CopyComplete
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.rsp
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.rsp
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.AppContext.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Collections.Immutable.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Console.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Compression.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.AccessControl.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Claims.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Principal.Windows.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.ValueTuple.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.rsp
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CopyComplete
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.pdb
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll.config
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.pdb
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe.config
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.rsp
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe.config
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.rsp
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.AppContext.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Collections.Immutable.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Console.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Compression.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.AccessControl.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Claims.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Principal.Windows.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.ValueTuple.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe.config
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.rsp
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe.config
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.pdb
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.pdb
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CopyComplete
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.dll
+D:\TEST\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DAL_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DAL_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\DAL_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\DAL_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CopyComplete
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.rsp
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.rsp
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.AppContext.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Collections.Immutable.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Console.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Compression.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.AccessControl.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Claims.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Principal.Windows.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.ValueTuple.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe.config
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.rsp
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe
+D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csc.rsp
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\csi.rsp
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.AppContext.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Collections.Immutable.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Console.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Compression.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.IO.Pipes.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.AccessControl.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Claims.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.ValueTuple.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\vbc.rsp
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\roslyn\VBCSCompiler.exe.config
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DAL_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\BUS_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DTO_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\bin\DAL_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\GUI_QuanLiNhaHang.csproj.CopyComplete
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.pdb

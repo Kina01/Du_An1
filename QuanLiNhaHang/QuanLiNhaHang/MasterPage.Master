@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="QuanLiNhaHang.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="/CSS/layout.css" />
+    <script src="/Icon/fontawesome-free-6.5.1-web/js/all.min.js" ></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div class="header">
+            <div class="headerr">
+            <nav>
+                <div class="menu">
+                    <div class="Logo">
+                        <a href="TrangChu.aspx" runat="server"> Nhà hàng Minh Phát </a>
+                    </div> 
+                    <ul>
+                        <li class="active" ><a href="TrangChu.aspx" runat="server"> <i class="fa-solid fa-house"></i> Trang Chủ </a></li>
+                        <li><a href="ThucDon.aspx" runat="server"> <i class="fa-solid fa-calendar-days"></i> Thực đơn </a></li>
+                        <li><a href="DatBan.aspx" runat="server"> <i class="fa-solid fa-table"></i> Đặt bàn </a></li>
+                        <li><a href="ThanhToan.aspx" runat="server"> <i class="fa-solid fa-credit-card"></i> Thanh toán </a></li>
+                        <li>
+                            <asp:textbox id="txtUser" runat="server" Width="100px" Text-align="center" BackColor="aquamarine" BorderStyle="None" CssClass="center-textbox"
+                                > User</asp:textbox>
+                        </li>
+                        <li>||</li>
+                        <li><a href="DangNhap.aspx" runat="server" id="btnLogout"> <i class="fa-solid fa-user"></i> Đăng nhập </a></li>
+                        <li><a href="DangNhap.aspx" runat="server" id="A1" onclick="btnLogout_Click"></a></li>
+                    </ul>
+                </div>
+            </nav>
+          </div>
+       </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <h3>
+                Đây là phần footer
+            </h3>
+        </div>
+    </form>
+    
+</body>
+</html>
