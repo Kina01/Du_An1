@@ -7,6 +7,7 @@
     <title></title>
     <link rel="stylesheet" href="/CSS/layout.css" />
     <script src="/Icon/fontawesome-free-6.5.1-web/js/all.min.js" ></script>
+    <link rel="icon" type="image/png" href="path_to_your_icon.png">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -20,15 +21,15 @@
                         <a href="TrangChu.aspx" runat="server"> Nhà hàng Minh Phát </a>
                     </div> 
                     <ul>
-                        <li class="active" ><a href="TrangChu.aspx" runat="server"> <i class="fa-solid fa-house"></i> Trang Chủ </a></li>
+                        <li class="active" ><a href="TrangChu.aspx" runat="server"> <i class="fa-solid fa-house""></i> Trang Chủ </a></li>
                         <li><a href="ThucDon.aspx" runat="server"> <i class="fa-solid fa-calendar-days"></i> Thực đơn </a></li>
                         <li><a href="DatBan.aspx" runat="server"> <i class="fa-solid fa-table"></i> Đặt bàn </a></li>
                         <li><a href="ThanhToan.aspx" runat="server"> <i class="fa-solid fa-credit-card"></i> Thanh toán </a></li>
                         <li>
-                            <asp:textbox id="txtUser" runat="server" Width="100px" Text-align="center" BackColor="aquamarine" BorderStyle="None" CssClass="center-textbox"
+                            <asp:textbox id="txtUser" runat="server" Width="100px" Text-align="center" BackColor="#222222" BorderStyle="None" CssClass="center-textbox"
                                 > User</asp:textbox>
                         </li>
-                        <li>||</li>
+                        <li style="color:white">|| </li>
                         <li><a href="DangNhap.aspx" runat="server" id="btnLogout"> <i class="fa-solid fa-user"></i> Đăng nhập </a></li>
                         <li><a href="DangNhap.aspx" runat="server" id="A1" onclick="btnLogout_Click"></a></li>
                     </ul>
@@ -41,9 +42,6 @@
             </asp:ContentPlaceHolder>
         </div>
         <div>
-            <h3>
-                Đây là phần footer
-            </h3>
         </div>
     </form>
     

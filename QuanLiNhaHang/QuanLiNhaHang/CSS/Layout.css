@@ -1,33 +1,38 @@
 
+* {
+    margin:0;
+    padding:0;
+}
 .headerr {
-    width: 97.8vw;
+    width: 100vw;
     height: 9vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
     border-bottom: 2px solid;
-    background-color: aquamarine;
+    background-color: #222222;
     font-family: sans-serif;
     top: 0;
     z-index: 1;
     position: fixed;
-    border-radius:5px;
-    box-shadow:0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 nav {
     width: 140%;
     padding: 8px 0;
-    
 }
 
 nav .Logo a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 30px;
     font-weight: 600;
 }
 
 nav .menu {
     max-width: 1400px;
-    /*margin: auto;*/
+    margin: auto;
     margin-left:120px;
     display: flex;
     align-items: center;
@@ -35,6 +40,11 @@ nav .menu {
     padding: 0 20px;
 }
 
+.menu {
+    display:flex;
+    justify-content:space-around;
+    margin-left:30px;
+}
 .menu ul {
     display: flex;
 }
@@ -51,16 +61,15 @@ nav .menu {
     font-weight: 600;
     padding: 10px 20px;
     transition: all 0.3s ease;
-
     position: relative;
-  color: #333; 
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
+    color: white; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
 .menu ul li .active a {
     background: yellow;
-    color: #000;
+    color: white;
 }
 
 /*.menu ul li a:hover {
@@ -112,6 +121,7 @@ nav .menu {
         }*/
 
         .center-textbox {
+            color:white;
             text-align: center;
             font-weight: bold;
             margin-top: -2.5px;

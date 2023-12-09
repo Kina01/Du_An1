@@ -22,6 +22,15 @@ namespace QuanLiNhaHang {
         protected global::System.Web.UI.WebControls.Image img;
         
         /// <summary>
+        /// txtMaDatBan control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtMaDatBan;
+        
+        /// <summary>
         /// cbxMaban control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,42 @@ namespace QuanLiNhaHang {
         protected global::System.Web.UI.WebControls.DropDownList cbxMaban;
         
         /// <summary>
+        /// txtMaKhachHang control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtMaKhachHang;
+        
+        /// <summary>
+        /// txtTenKhachHang control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTenKhachHang;
+        
+        /// <summary>
+        /// txtSoLuong control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSoLuong;
+        
+        /// <summary>
+        /// cbxTrangThai control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList cbxTrangThai;
+        
+        /// <summary>
         /// btnDatBan control.
         /// </summary>
         /// <remarks>
@@ -38,5 +83,14 @@ namespace QuanLiNhaHang {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDatBan;
+        
+        /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
     }
 }

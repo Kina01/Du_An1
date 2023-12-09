@@ -29,10 +29,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 270px;
+    height: 370px;
     border: 3px solid #8B0016;
     border-radius: 10px;
-    background-color:darkcyan;
+    background-color: darkcyan;
 }
 
 .khoangcach {

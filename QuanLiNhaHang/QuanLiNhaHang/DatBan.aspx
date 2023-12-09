@@ -8,7 +8,7 @@
         <div class="container">
             <div class="khoangcach">
                 <label for="txtMaDatBan" class="tieude">Mã đặt bàn</label>
-                <input type="text" id="txtMaDatBan" />
+                <asp:TextBox ID="txtMaDatBan" runat="server"></asp:TextBox>
             </div>
             <div class="khoangcach">
                 <label for="cbxMaBan" class="tieude">Mã bàn</label>
@@ -26,14 +26,28 @@
             </div>
             <div class="khoangcach">
                 <label for="txtMaKhachHang" class="tieude">Mã khách hàng</label>
-                <input type="text" id="txtMaKhachHang" />
+                <asp:TextBox ID="txtMaKhachHang" runat="server"></asp:TextBox>
             </div>
             <div class="khoangcach">
-                <label for="txtSoLuong" class="tieude">Số lượng</label>
-                <input type="text" id="txtSoLuong" />
+                <label for="txtTenKhachHang" class="tieude">Tên khách hàng</label>
+                <asp:TextBox ID="txtTenKhachHang" runat="server"></asp:TextBox>
+            </div>
+            <div class="khoangcach">
+                <label for="txtSoLuong" class="tieude">Số lượng người</label>
+                <asp:TextBox ID="txtSoLuong" runat="server"></asp:TextBox>
+            </div>
+            <div class="khoangcach">
+                <label for="cbxTrangThai" class="tieude">Trạng thái</label>
+                <asp:DropDownList ID="cbxTrangThai" runat="server">
+                    <asp:ListItem>Chưa đặt</asp:ListItem>
+                    <asp:ListItem>Đã đặt</asp:ListItem>
+                </asp:DropDownList>
             </div>
             <div class="khoangcach" id="button">
-                <asp:Button ID="btnDatBan" runat="server" Text="Đặt bàn" />
+                <asp:Button ID="btnDatBan" runat="server" Text="Đặt bàn" OnClick="btnDatBan_Click" />
+            </div>
+            <div>
+                <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
             </div>
         </div>
     </div>

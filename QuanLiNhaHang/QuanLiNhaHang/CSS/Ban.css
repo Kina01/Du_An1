@@ -1,23 +1,27 @@
 .Ban table tr td {
-    width: 300px;
-    height: 10vh;
+    width: 350px;
+    height: 25vh;
     /* padding: 50px; */
     border: 2px solid white;
     margin-right: 20px;
     text-align: center;
     color: black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, #708090, #4682b4);
+    background: #DDDDDD;
     /* Hiệu ứng độ sâu */
+    /*display:flex;
+    justify-content:center;
+    align-items:center;*/
     font-size: 27px;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: transform 0.3s ease-in-out;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
     .Ban table tr td:hover {
         transform: scale(1.1);
-        background-color:sandybrown;
+        cursor:pointer;
+        background-color: #BBBBBB;
     }
 
     .Ban table tr td a {
@@ -27,7 +31,7 @@
 .Ban table tr td a:hover {
     color:darkslategray;
     /* Đổi màu chữ khi hover */
-    background-color: darkgrey;
+    /*background-color: darkgrey;*/
     /* Đổi màu nền khi hover */
     border-radius: 4px;
     /* Làm tròn góc */
@@ -44,15 +48,35 @@
 }
 
 .Ban {
-    width: 97.8vw;
+    width: 100vw;
     height: 100vh;
     z-index: 2;
     margin-top: 66px;
-    border-radius: 5px;
     justify-content: center;
     display: flex;
-    background-image: url("../Image/Restaurants.png");
-    background-color: #708090;
-
+    /*background-image: url("../Image/Restaurants.png");*/
+    /*background-color: #708090;*/
+    background-color: white;
     /* Gradient màu nền */
+}
+
+/*.bann {
+    width: 270px;
+    height: 100px;
+    border: 2px solid;
+    color:black;
+    margin-left: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #708090, #4682b4);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}*/
+.TrangThai {
+    border-radius:3.5px;
+    height:20px;
+
+}
+
+.lbl{
+    margin-left:10px;
 }

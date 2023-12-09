@@ -1,0 +1,17 @@
+﻿.HoaDon {
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.HoaDon1 {
+    width:550px;
+    height:300px;
+    border:2px solid;
+    padding:10px;
+}
