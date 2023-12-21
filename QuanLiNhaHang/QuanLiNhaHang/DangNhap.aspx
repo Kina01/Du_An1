@@ -3,21 +3,26 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <link rel="stylesheet" href="/CSS/Login.css" />
+<link rel="icon" type="image/png" href="Image/DangNhap.png"/>
      <div class="container_container_login" style="">
             <div class="logonForm">
                 <h2 class="title_Form">Login</h2>
                 <div class="row_Ip">
                     <label for="" class="title_Ip_Form">UserName</label>
                     <asp:TextBox ID="txtUserName" runat="server"></asp:TextBox>
+
                    <%-- <input type="text" id="txtUserName">--%>
                 </div>
                 <div class="row_Ip">
                     <label for="" class="title_Ip_Form">Password</label>
-                    <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtPassword" runat="server" TextMode="SingleLine"></asp:TextBox>
                    <%-- <input type="text" id="txtPassword">--%>
                 </div>
+                <div>
+                    <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" AutoPostBack="true" Text="Hiện mật khẩu" />
+                </div>
                 <div class="txtbingBug">
-                    <asp:TextBox ForeColor="Red" ID="txtbingBug" runat="server" BorderStyle="None" Width="272px"/>
+                    <asp:TextBox ForeColor="Red" ID="txtbingBug" runat="server" style="margin-top:10px;" BorderStyle="None" Width="272px"/>
                 </div>
                 <div class="contain_Btn">
                     <%--<input type="submit" id="btnSubmitLogin">--%>

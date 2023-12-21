@@ -6,8 +6,8 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" href="/CSS/layout.css" />
-    <script src="/Icon/fontawesome-free-6.5.1-web/js/all.min.js" ></script>
-    <link rel="icon" type="image/png" href="path_to_your_icon.png">
+    <link rel="stylesheet" href="/CSS/Footer.css" />
+    <script src="/Icons/fontawesome-free-6.5.1-web/js/all.min.js" ></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -21,7 +21,7 @@
                         <a href="TrangChu.aspx" runat="server"> Nhà hàng Minh Phát </a>
                     </div> 
                     <ul>
-                        <li class="active" ><a href="TrangChu.aspx" runat="server"> <i class="fa-solid fa-house""></i> Trang Chủ </a></li>
+                        <li class="active" ><a href="TrangChu.aspx" runat="server"> <i class="fa-solid fa-house"></i> Trang Chủ </a></li>
                         <li><a href="ThucDon.aspx" runat="server"> <i class="fa-solid fa-calendar-days"></i> Thực đơn </a></li>
                         <li><a href="DatBan.aspx" runat="server"> <i class="fa-solid fa-table"></i> Đặt bàn </a></li>
                         <li><a href="ThanhToan.aspx" runat="server"> <i class="fa-solid fa-credit-card"></i> Thanh toán </a></li>
@@ -29,7 +29,7 @@
                             <asp:textbox id="txtUser" runat="server" Width="100px" Text-align="center" BackColor="#222222" BorderStyle="None" CssClass="center-textbox"
                                 > User</asp:textbox>
                         </li>
-                        <li style="color:white">|| </li>
+                        <li style="color:white" >||</li>
                         <li><a href="DangNhap.aspx" runat="server" id="btnLogout"> <i class="fa-solid fa-user"></i> Đăng nhập </a></li>
                         <li><a href="DangNhap.aspx" runat="server" id="A1" onclick="btnLogout_Click"></a></li>
                     </ul>
@@ -42,6 +42,22 @@
             </asp:ContentPlaceHolder>
         </div>
         <div>
+            <link rel="stylesheet" href="/CSS/Footer.css" />
+            <script src="/Icon/fontawesome-free-6.5.1-web/js/all.min.js" ></script>
+            <div class="footer">
+                <div class="row">
+                    <ul>
+                        <li> <i class="fa-solid fa-map-location-dot"></i> Địa chỉ : xxx </li>
+                        <li> <i class="fa-solid fa-phone"></i> SĐT : 037xxxxxx </li>
+                        <li> <i class="fa-solid fa-clock"></i> Khung giờ hoạt động : 7h - 24h  </li>
+                        <li><a href="#" runat="server"> <i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"> <i class="fa-solid fa-comment-dots"></i>Zalo</a></li>
+                    </ul>
+                </div>
+                <div class="row" style="font-size:20px;">
+                    Nhà hàng Minh Phát rất hân hạnh được phục vụ quý khách ! 
+                </div>
+            </div>
         </div>
     </form>
     

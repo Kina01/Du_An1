@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BanDTO.cs" />
+    <Compile Include="Ban_MonAnDTO.cs" />
     <Compile Include="ChiTietHoaDonDTO.cs" />
     <Compile Include="DatBanDTO.cs" />
     <Compile Include="HoaDonDTO.cs" />

@@ -60,34 +60,37 @@ namespace QuanLiNhaHang
             DatBanDTO datbanDTO = LayDuLieuTuFormDatBan();
             BanDTO banDTO = LayDuLieuTuFormBan();
             KhachHangDTO khachhangDTO = LayDuLieuTuFormKhachHang();
-            busDatBan datbanBUS = new busDatBan();
+            BusDatBan datbanBUS = new BusDatBan();
             BusBan banBUS = new BusBan();
             BusKhachHang khachhangBUS = new BusKhachHang();
 
-            bool result = khachhangBUS.SAVEKhachHang(khachhangDTO);
-            if (result)
+            bool result;
+            bool result1;
+            bool result2;
+            if (result = khachhangBUS.SAVEKhachHang(khachhangDTO))
             {
-                bool result1 = banBUS.upBan(banDTO);
-                if (result1)
+                if (result1 = datbanBUS.SAVEDatBan(datbanDTO))
                 {
-                    bool result2 = datbanBUS.SAVEDatBan(datbanDTO);
-                    if (result2)
+                    if (result2 = banBUS.upBan(banDTO))
                     {
                         ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Đặt bàn thành công!');  window.location = 'TrangChu.aspx';", true);
                     }
                     else
                     {
-                        ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Lỗi đặt bàn');", true);
+                        ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Số người vượt quá giới hạn!');", true);
                     }
                 }
                 else
                 {
-                    ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Bàn đã có người!');", true);
+                    datbanBUS.DeleteDatBan(datbanDTO);
+                    khachhangBUS.DeleteKhachHang(khachhangDTO);
+                    ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Đặt bàn thất bại!');", true);
                 }
             }
             else
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Lỗi đặt bàn!');", true);
+                khachhangBUS.DeleteKhachHang(khachhangDTO);
+                ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Đặt bàn không thành công!'\n'Vui lòng đặt lại.');", true);
             }
         }
     }

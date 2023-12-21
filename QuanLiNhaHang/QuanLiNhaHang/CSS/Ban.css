@@ -1,12 +1,28 @@
+
+.Ban {
+    width: 100vw;
+    height: 105vh;
+    z-index: 2;
+    margin-top: 66px;
+    justify-content: center;
+    display: flex;
+    background-image: url("../Image/Background.png");
+    background-size: cover;
+    /*background-color: #708090;*/
+    background-color: white;
+    /* Gradient màu nền */
+}
+
 .Ban table tr td {
-    width: 350px;
-    height: 25vh;
+    width: 340px;
+    height: 0px;
     /* padding: 50px; */
     border: 2px solid white;
     margin-right: 20px;
     text-align: center;
     color: black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    box-shadow:0px 0px 10px #000;
     background: #DDDDDD;
     /* Hiệu ứng độ sâu */
     /*display:flex;
@@ -47,19 +63,6 @@
     border-spacing: 60px;
 }
 
-.Ban {
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-    margin-top: 66px;
-    justify-content: center;
-    display: flex;
-    /*background-image: url("../Image/Restaurants.png");*/
-    /*background-color: #708090;*/
-    background-color: white;
-    /* Gradient màu nền */
-}
-
 /*.bann {
     width: 270px;
     height: 100px;
@@ -74,7 +77,10 @@
 .TrangThai {
     border-radius:3.5px;
     height:20px;
-
+    text-align:center;
+    font-family:'Times New Roman';
+    font-size:18px;
+    width:150px;
 }
 
 .lbl{

@@ -42,39 +42,7 @@ namespace QuanLiNhaHang
                 txtbingBug.Text = "Vui lòng điền đầy đủ thông tin";
             }
 
-
-
-            //bản chatgtp1
-            //string tk = txtUserName.Text;
-            //string mk = txtPassword.Text;
-
-            //if (!string.IsNullOrEmpty(tk) && !string.IsNullOrEmpty(mk))
-            //{
-            //    if (DN.CheckAccount(tk, mk))
-            //    {
-            //        // Lưu tên người dùng vào Session để sử dụng sau này
-            //        Session["UserName"] = tk;
-
-            //        // Chuyển hướng đến trang chủ
-            //        Response.Redirect("TrangChu.aspx");
-            //    }
-            //    else
-            //    {
-            //        txtbingBug.Text = "Tài khoản hoặc mật khẩu không đúng";
-            //    }
-            //}
-            //else
-            //{
-            //    txtbingBug.Text = "Vui lòng điền đầy đủ thông tin";
-            //}
-
-
-
-
-
-
-
-            //Bản gốc
+            //Check login k lưu tên tài khoản người dùng
             //string tk = txtUserName.Text;
             //string mk = txtPassword.Text;
 
@@ -95,6 +63,18 @@ namespace QuanLiNhaHang
             //}
 
 
+        }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            //if (CheckBox1.Checked)
+            //{
+            //    txtPassword.TextMode = TextBoxMode.SingleLine;
+            //}
+            //else
+            //{
+            //    txtPassword.TextMode = TextBoxMode.Password;
+            //}
         }
     }
 }

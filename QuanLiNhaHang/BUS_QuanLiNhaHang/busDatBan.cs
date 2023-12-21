@@ -8,13 +8,18 @@ using DTO_QuanLiNhaHang;
 
 namespace BUS_QuanLiNhaHang
 {
-    public class busDatBan
+    public class BusDatBan
     {
         Dataprovider datBanDAL = new Dataprovider();
 
         public bool SAVEDatBan(DatBanDTO datBan)
         {
             return datBanDAL.saveDatBan(datBan);
+        }
+
+        public bool DeleteDatBan(DatBanDTO datBan)
+        {
+            return datBanDAL.deleteDatBan(datBan);
         }
     }
 }

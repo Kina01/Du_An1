@@ -16,5 +16,10 @@ namespace BUS_QuanLiNhaHang
         {
             return khachHangDAL.saveKhachHang(khachHang);
         }
+
+        public bool DeleteKhachHang(KhachHangDTO khachHang)
+        {
+            return khachHangDAL.deleteKH(khachHang);
+        }
     }
 }

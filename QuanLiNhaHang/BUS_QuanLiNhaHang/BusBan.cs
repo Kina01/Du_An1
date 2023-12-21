@@ -13,14 +13,22 @@ namespace BUS_QuanLiNhaHang
     {
         Dataprovider banDAL = new Dataprovider();
 
+        //Phường thức update lại trạng thái bàn trong csdl
         public bool upBan(BanDTO ban)
         {
             return banDAL.updateBan(ban);
         }
 
-        public BanDTO loadBan()
+        // Phương thức lấy danh sách tất cả các bàn
+        public List<BanDTO> loadDanhSachBan()
         {
-            return banDAL.loadBan();
+            return banDAL.loadDanhSachBan();
+        }
+
+        // Phương thức lấy trạng thái của một bàn dựa trên mã bàn
+        public string GetTrangThaiBan(string maBan)
+        {
+            return banDAL.GetTrangThaiBan(maBan);
         }
 
     }

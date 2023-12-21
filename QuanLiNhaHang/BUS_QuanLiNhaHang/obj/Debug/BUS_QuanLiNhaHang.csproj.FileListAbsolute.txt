@@ -53,3 +53,25 @@ D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHa
 D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CopyComplete
 D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.dll
 D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectFinalExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.pdb
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CopyComplete
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.dll
+D:\Slide bài giảng\Học kì 5\C# .Net\FinalExam\ProjectExam\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\BUS_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.csproj.CopyComplete
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\QuanLiNhaHang\BUS_QuanLiNhaHang\obj\Debug\BUS_QuanLiNhaHang.pdb
