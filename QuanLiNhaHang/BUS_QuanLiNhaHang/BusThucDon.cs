@@ -17,5 +17,9 @@ namespace BUS_QuanLiNhaHang
         {
             return td.loadThucDon();
         }
+        public bool LuuThucDon(ThucDonDTO thucDon)
+        {
+            return td.LuuThucDon(thucDon);
+        }
     }
 }

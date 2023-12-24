@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="/CSS/Menu.css" />
     <link rel="icon" type="image/png" href="Image/ThucDon.png">
     <div class="Menu">
-        <asp:GridView ID="gvThucDon" runat="server" AutoGenerateColumns="False" style="margin-left: 528px;;" Width="490px">
+        <asp:GridView CssClass="grdMenu" ID="gvThucDon" runat="server" AutoGenerateColumns="False" style="margin-left: 528px;" Width="460px">
             <Columns>
+                <asp:BoundField DataField="MaMon" HeaderText="Mã món" />
                 <asp:BoundField DataField="TenMon" HeaderText="Tên món" >
                     <ItemStyle HorizontalAlign="Center" Width="300px" />
                 </asp:BoundField>
-                <asp:ImageField DataImageUrlField="HinhAnh" DataImageUrlFormatString="~/Image/{0}">
+                <asp:ImageField DataImageUrlField="HinhAnh" HeaderText="Hình ảnh" DataImageUrlFormatString="~/Images/{0}">
                     <ControlStyle Height="100px" Width="100px" />
                     <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="101px" />
                 </asp:ImageField>

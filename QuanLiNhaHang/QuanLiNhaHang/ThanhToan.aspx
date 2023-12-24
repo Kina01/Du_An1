@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="Image/ThanhToan.png">
     <div class="ThanhToan">
         Viết code ở đây
+        <asp:Menu ID="Menu1" runat="server"></asp:Menu>
     </div>
    
 </asp:Content>

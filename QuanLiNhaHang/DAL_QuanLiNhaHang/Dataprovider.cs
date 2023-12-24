@@ -109,7 +109,7 @@ namespace DAL_QuanLiNhaHang
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 string sql = @"UPDATE BAN SET TrangThai = @trangthai
-                            WHERE MaBan = @maban and SoLuongNguoi >= @soluongnguoi and TrangThai = N'Chưa đặt'";
+                            WHERE MaBan = @maban and SoLuongNguoi >= @soluongnguoi and TrangThai = N'Trống'";
                 SqlCommand cmd = new SqlCommand(sql, connection);
                 cmd.Parameters.AddWithValue("@maban", ban.MaBan);
                 cmd.Parameters.AddWithValue("@soluongnguoi", ban.SoLuongNguoi);
@@ -199,7 +199,7 @@ namespace DAL_QuanLiNhaHang
             return false;
         }
 
-        //Phường thức xóa đặt bàn khi đặt bàn thất bại
+        //Phương thức xóa đặt bàn khi đặt bàn thất bại
         public bool deleteDatBan(DatBanDTO db)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -216,6 +216,29 @@ namespace DAL_QuanLiNhaHang
                 }
             }
             return false;
+        }
+
+        // Phương thức này để lưu ThucDonDTO vào cơ sở dữ liệu
+        public bool LuuThucDon(ThucDonDTO thucDon)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = @"INSERT INTO ThucDon(MaMon, TenMon, HinhAnh, DonGia)
+                               VALUES (@maMon, @tenMon, @hinhAnh, @donGia)";
+
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
+                {
+                    cmd.Parameters.AddWithValue("@maMon", thucDon.MaMon);
+                    cmd.Parameters.AddWithValue("@tenMon", thucDon.TenMon);
+                    cmd.Parameters.AddWithValue("@hinhAnh", thucDon.HinhAnh);
+                    cmd.Parameters.AddWithValue("@donGia", thucDon.DonGia);
+
+                    connection.Open();
+                    int result = cmd.ExecuteNonQuery();
+
+                    return (result >= 1);
+                }
+            }
         }
     }
 }

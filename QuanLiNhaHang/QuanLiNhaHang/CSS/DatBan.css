@@ -13,9 +13,11 @@
 }
 
 .datban {
-    width: 97.8vw;
-    height: 100vh;
+    width: 100vw;
+    height: 90vh;
     z-index: 2;
+    background-image: url("../Images/Background.png");
+    background-size: cover;
     margin-top: 60px;
     justify-content: center;
     align-items: center;
@@ -30,9 +32,9 @@
     transform: translate(-50%, -50%);
     width: 400px;
     height: 370px;
-    border: 3px solid #8B0016;
+    border: 3px solid;
     border-radius: 10px;
-    background-color: darkcyan;
+    background-color: #DDDDDD;
 }
 
 .khoangcach {
@@ -50,4 +52,17 @@
     color: black;
     font-weight: bold;
     font-size: 20px;
+}
+
+.btDatBan {
+    height:25px;
+    width:90px;
+    border-radius:3px;
+    border:none;
+    font-size:19px;
+}
+
+.btDatBan:hover {
+    background-color:aqua;
+    cursor: pointer;
 }

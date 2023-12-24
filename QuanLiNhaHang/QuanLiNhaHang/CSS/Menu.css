@@ -1,8 +1,12 @@
 ﻿.Menu {
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
     z-index: 2;
     margin-top: 70px; /*Khong duoc xoa*/
-
 }
+.grdMenu{
+    height:100%;
+}
+
+
 

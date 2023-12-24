@@ -1,4 +1,4 @@
-
+﻿
 * {
     margin:0;
     padding:0;
@@ -94,8 +94,8 @@ nav .menu {
     }
 
     .menu ul li a:hover {
-        color: black; 
-        background: yellow;
+        color: black;
+        background: #a2c5d7;
     }
 
         .menu ul li a:hover::before {
@@ -189,3 +189,25 @@ nav .menu {
         margin: 0% 3%;
     }
 }
+
+/**/
+.submenu {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    /*box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);*/
+    list-style: none; /* Ẩn các dấu đầu dòng của danh sách con */
+    padding: 0; /* Xóa padding của danh sách con */
+    width: 200px; /* Thiết lập chiều rộng của submenu */
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+    padding: 10px;
+    text-align: left; /* Canh lề văn bản sang trái */
+}
+

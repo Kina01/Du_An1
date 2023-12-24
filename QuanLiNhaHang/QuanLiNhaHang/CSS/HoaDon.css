@@ -1,17 +1,28 @@
 ﻿.HoaDon {
-    margin:0;
-    padding:0;
-    width:100vw;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 85vh;
+    background-image: url("../Image/Background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .HoaDon1 {
-    width:550px;
-    height:300px;
-    border:2px solid;
-    padding:10px;
+    margin-top: 60px;
+    width: 550px;
+    height: 330px;
+    background-color: #f4f3f2;
+    border: 2px solid;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+}
+
+table tr td {
+    padding:8px;
+    border:none;
 }

@@ -6,28 +6,23 @@
     margin-top: 66px;
     justify-content: center;
     display: flex;
-    background-image: url("../Image/Background.png");
+    background-color:red;
+    background-image: url("../Images/Background.png");
     background-size: cover;
-    /*background-color: #708090;*/
     background-color: white;
-    /* Gradient màu nền */
 }
 
 .Ban table tr td {
     width: 340px;
     height: 0px;
-    /* padding: 50px; */
     border: 2px solid white;
     margin-right: 20px;
     text-align: center;
     color: black;
-    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
     box-shadow:0px 0px 10px #000;
     background: #DDDDDD;
-    /* Hiệu ứng độ sâu */
-    /*display:flex;
     justify-content:center;
-    align-items:center;*/
+    align-items:center;
     font-size: 27px;
     border-radius: 15px;
     transition: transform 0.3s ease-in-out;
@@ -42,17 +37,13 @@
 
     .Ban table tr td a {
         color: #333;
+        font-size:23px;
     }
 
 .Ban table tr td a:hover {
     color:darkslategray;
-    /* Đổi màu chữ khi hover */
-    /*background-color: darkgrey;*/
-    /* Đổi màu nền khi hover */
     border-radius: 4px;
-    /* Làm tròn góc */
     transition: 0.2s;
-    /* Hiệu ứng chuyển động mềm mại */
 }
 
 .Ban table tr td a {

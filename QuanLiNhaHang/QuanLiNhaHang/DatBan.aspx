@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/CSS/DatBan.css" />
     <link rel="icon" type="image/png" href="Image/DatBan.png">
    <div class="datban">
-        <asp:Image ID="img" runat="server" ImageUrl="/Image/Backgroud.png" CssClass="imgBackgroud" />
+        <%--<asp:Image ID="img" runat="server" ImageUrl="/Image/Backgroud.png" CssClass="imgBackgroud" />--%>
         <div class="container">
             <div class="khoangcach">
                 <label for="txtMaDatBan" class="tieude">Mã đặt bàn</label>
@@ -40,12 +40,12 @@
             <div class="khoangcach">
                 <label for="cbxTrangThai" class="tieude">Trạng thái</label>
                 <asp:DropDownList ID="cbxTrangThai" runat="server">
-                    <asp:ListItem>Chưa đặt</asp:ListItem>
-                    <asp:ListItem>Đã đặt</asp:ListItem>
+                    <asp:ListItem>Trống</asp:ListItem>
+                    <asp:ListItem>Đã có khách</asp:ListItem>
                 </asp:DropDownList>
             </div>
             <div class="khoangcach" id="button">
-                <asp:Button ID="btnDatBan" runat="server" Text="Đặt bàn" OnClick="btnDatBan_Click" />
+                <asp:Button ID="btnDatBan" runat="server" Text="Đặt bàn" CssClass="btDatBan" OnClick="btnDatBan_Click" />
             </div>
             <div>
                 <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>

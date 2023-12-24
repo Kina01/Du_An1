@@ -10,78 +10,78 @@
 namespace QuanLiNhaHang {
     
     
-    public partial class WebForm4 {
+    public partial class WebForm7 {
         
         /// <summary>
-        /// txtMaDatBan control.
+        /// txtMonAn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMaDatBan;
+        protected global::System.Web.UI.WebControls.TextBox txtMonAn;
         
         /// <summary>
-        /// cbxMaban control.
+        /// txtMaMon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cbxMaban;
+        protected global::System.Web.UI.WebControls.TextBox txtMaMon;
         
         /// <summary>
-        /// txtMaKhachHang control.
+        /// fupMonAn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMaKhachHang;
+        protected global::System.Web.UI.WebControls.FileUpload fupMonAn;
         
         /// <summary>
-        /// txtTenKhachHang control.
+        /// txtGia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTenKhachHang;
+        protected global::System.Web.UI.WebControls.TextBox txtGia;
         
         /// <summary>
-        /// txtSoLuong control.
+        /// btnThemmon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSoLuong;
+        protected global::System.Web.UI.WebControls.Button btnThemmon;
         
         /// <summary>
-        /// cbxTrangThai control.
+        /// btnUpdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cbxTrangThai;
+        protected global::System.Web.UI.WebControls.Button btnUpdate;
         
         /// <summary>
-        /// btnDatBan control.
+        /// btnDelete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDatBan;
+        protected global::System.Web.UI.WebControls.Button btnDelete;
         
         /// <summary>
-        /// lblMessage control.
+        /// btnClear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMessage;
+        protected global::System.Web.UI.WebControls.Button btnClear;
     }
 }
