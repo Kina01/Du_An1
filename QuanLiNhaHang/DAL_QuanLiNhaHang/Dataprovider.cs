@@ -240,5 +240,42 @@ namespace DAL_QuanLiNhaHang
                 }
             }
         }
+        //// Phương thức này để xóa ThucDonDTO từ cơ sở dữ liệu
+        //public bool XoaThucDon(string maMon)
+        //{
+        //    using (SqlConnection connection = new SqlConnection(connectionString))
+        //    {
+        //        string sql = "DELETE FROM ThucDon WHERE MaMon = @maMon";
+
+        //        using (SqlCommand cmd = new SqlCommand(sql, connection))
+        //        {
+        //            cmd.Parameters.AddWithValue("@maMon", maMon);
+
+        //            connection.Open();
+        //            int result = cmd.ExecuteNonQuery();
+
+        //            return (result >= 1);
+        //        }
+        //    }
+        //}
+
+        public bool XoaThucDon(string maMon)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = "DELETE FROM ThucDon WHERE MaMon = @maMon";
+
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@maMon", maMon);
+
+                    connection.Open();
+                    int result = command.ExecuteNonQuery();
+
+                    return (result > 0);
+                }
+            }
+        }
+
     }
 }

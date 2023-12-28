@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link rel="stylesheet" href="/CSS/ThanhToan.css" />
-    <link rel="icon" type="image/png" href="Image/ThanhToan.png">
+    <link rel="icon" type="image/png" href="Images/ThanhToan.png">
     <div class="ThanhToan">
         Viết code ở đây
         <asp:Menu ID="Menu1" runat="server"></asp:Menu>

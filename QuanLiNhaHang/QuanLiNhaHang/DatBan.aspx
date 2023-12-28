@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link rel="stylesheet" href="/CSS/DatBan.css" />
-    <link rel="icon" type="image/png" href="Image/DatBan.png">
+    <link rel="icon" type="image/png" href="Images/DatBan.png">
    <div class="datban">
         <%--<asp:Image ID="img" runat="server" ImageUrl="/Image/Backgroud.png" CssClass="imgBackgroud" />--%>
         <div class="container">

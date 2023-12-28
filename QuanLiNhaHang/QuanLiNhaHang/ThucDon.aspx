@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link rel="stylesheet" href="/CSS/Menu.css" />
-    <link rel="icon" type="image/png" href="Image/ThucDon.png">
+    <link rel="icon" type="image/png" href="Images/ThucDon.png">
     <div class="Menu">
         <asp:GridView CssClass="grdMenu" ID="gvThucDon" runat="server" AutoGenerateColumns="False" style="margin-left: 528px;" Width="460px">
             <Columns>

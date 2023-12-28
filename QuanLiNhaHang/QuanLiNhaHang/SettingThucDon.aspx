@@ -3,6 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link rel="stylesheet" href="/CSS/SettingThucDon.css" />
+    <link rel="icon" type="image/png" href="Images/ThucDon.png">
     <div class="SettingMenu">
         <div class="SettingMenu-1">
             <div>
@@ -11,18 +12,18 @@
             <table>
                 <tr>
                     <td style="text-align:left">
-                        Tên món ăn
-                    </td>
-                    <td>
-                        <asp:TextBox ID="txtMonAn" runat="server" Width="232px"></asp:TextBox>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="text-align:left">
                         Mã món
                     </td>
                     <td>
                         <asp:TextBox ID="txtMaMon" runat="server" Width="232px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">
+                        Tên món ăn
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtMonAn" runat="server" Width="232px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -46,16 +47,16 @@
                 <table>
                     <tr>
                         <td class="auto-style2">
-                            <asp:Button ID="btnThemmon" runat="server" Text="Thêm món" Width="84px" OnClick="btnThemmon_Click"/>
+                            <asp:Button ID="btnThemmon" runat="server" CssClass="btn" Text="Thêm món" Width="84px" OnClick="btnThemmon_Click"/>
                         </td>
-                        <td class="auto-style3">
+                        <%--<td class="auto-style3">
                             <asp:Button ID="btnUpdate" runat="server" Text="Cập nhật"/>
-                        </td>
+                        </td>--%>
                         <td class="auto-style4">
-                            <asp:Button ID="btnDelete" runat="server" Text="Xóa"/>
+                            <asp:Button ID="btnDelete" runat="server" CssClass="btn" Text="Xóa"  OnClick="btnDelete_Click"/>
                         </td>
                         <td class="auto-style5">
-                            <asp:Button ID="btnClear" runat="server" Text="Làm mới" Width="80px" OnClick="btnClear_Click" />
+                            <asp:Button ID="btnClear" runat="server" CssClass="btn" Text="Làm mới" Width="80px" OnClick="btnClear_Click" />
                         </td>
                     </tr>
                 </table>

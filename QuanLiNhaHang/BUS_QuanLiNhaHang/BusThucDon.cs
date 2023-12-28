@@ -21,5 +21,9 @@ namespace BUS_QuanLiNhaHang
         {
             return td.LuuThucDon(thucDon);
         }
+        public bool XoaThucDon(string maMon)
+        {
+            return td.XoaThucDon(maMon);
+        }
     }
 }

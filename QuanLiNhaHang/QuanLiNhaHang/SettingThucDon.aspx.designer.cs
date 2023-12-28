@@ -13,15 +13,6 @@ namespace QuanLiNhaHang {
     public partial class WebForm7 {
         
         /// <summary>
-        /// txtMonAn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMonAn;
-        
-        /// <summary>
         /// txtMaMon control.
         /// </summary>
         /// <remarks>
@@ -29,6 +20,15 @@ namespace QuanLiNhaHang {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMaMon;
+        
+        /// <summary>
+        /// txtMonAn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtMonAn;
         
         /// <summary>
         /// fupMonAn control.
@@ -56,15 +56,6 @@ namespace QuanLiNhaHang {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnThemmon;
-        
-        /// <summary>
-        /// btnUpdate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnUpdate;
         
         /// <summary>
         /// btnDelete control.

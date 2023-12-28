@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <link rel="stylesheet" href="/CSS/Login.css" />
-<link rel="icon" type="image/png" href="Image/DangNhap.png"/>
+<link rel="icon" type="image/png" href="Images/DangNhap.png"/>
 
      <div class="container_container_login" style="">
             <div class="logonForm">
