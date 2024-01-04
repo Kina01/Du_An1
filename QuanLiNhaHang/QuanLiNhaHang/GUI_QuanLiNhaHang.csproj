@@ -2163,7 +2163,6 @@
     <Content Include="JS\Setting.js" />
     <Content Include="Web.config" />
     <Content Include="TrangChu.aspx" />
-    <Content Include="Login.aspx" />
     <Content Include="ThucDon.aspx" />
     <Content Include="DatBan.aspx" />
     <Content Include="ThanhToan.aspx" />
@@ -2208,13 +2207,6 @@
     </Compile>
     <Compile Include="TrangChu.aspx.designer.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="ThucDon.aspx.cs">
       <DependentUpon>ThucDon.aspx</DependentUpon>
