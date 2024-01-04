@@ -16,33 +16,33 @@
     <form id="form1" runat="server">
        <div class="header">
             <div class="headerr">
-            <nav>
-                <div class="menu">
-                    <div class="Logo">
-                        <a href="TrangChu.aspx" runat="server"> Nhà hàng Minh Phát </a>
-                    </div> 
-                    <ul>
-                        <li class="active" ><a href="TrangChu.aspx" runat="server"> <i class="fa-solid fa-house"></i> Trang Chủ </a></li>
-                        <li><a href="ThucDon.aspx" runat="server"> <i class="fa-solid fa-calendar-days"></i> Thực đơn </a></li>
-                        <li><a href="DatBan.aspx" runat="server"> <i class="fa-solid fa-table"></i> Đặt bàn </a></li>
-                        <li class="has-submenu" ><a href="SettingThucDon.aspx" runat="server"> <i class="fa-solid fa-gear"></i> Cài đặt </a>
-                            <ul class="submenu">
-                                <li><a href="SettingThucDon.aspx">• Menu</a></li>
-                                <li><a href="#">• Khách hàng</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <asp:textbox id="txtUser" runat="server" Width="100px" Text-align="center" BackColor="#222222" BorderStyle="None" CssClass="center-textbox"
-                                > User</asp:textbox>
-                        </li>
-                        <li style="color:white" >||</li>
-                        <li><a href="DangNhap.aspx" runat="server" id="btnLogout"> <i class="fa-solid fa-user"></i> Đăng nhập </a></li>
-                        <li><a href="DangNhap.aspx" runat="server" id="A1" onclick="btnLogout_Click"></a></li>
-                    </ul>
-                </div>
-            </nav>
+                <nav>
+                    <div class="menu">
+                        <div class="Logo">
+                            <a href="TrangChu.aspx" runat="server"> Nhà hàng Minh Phát </a>
+                        </div> 
+                        <ul>
+                            <li class="active" ><a href="TrangChu.aspx" runat="server"> <i class="fa-solid fa-house"></i> Trang Chủ </a></li>
+                            <li><a href="ThucDon.aspx" runat="server"> <i class="fa-solid fa-calendar-days"></i> Thực đơn </a></li>
+                            <li><a href="DatBan.aspx" runat="server"> <i class="fa-solid fa-table"></i> Đặt bàn </a></li>
+                            <li class="has-submenu" ><a href="SettingThucDon.aspx" runat="server"> <i class="fa-solid fa-gear"></i> Cài đặt </a>
+                                <ul class="submenu">
+                                    <li><a href="SettingThucDon.aspx">• Menu</a></li>
+                                    <li><a href="#">• Khách hàng</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <asp:textbox id="txtUser" runat="server" Width="100px" Text-align="center" BackColor="#222222" BorderStyle="None" CssClass="center-textbox"
+                                    > User</asp:textbox>
+                            </li>
+                            <li style="color:white" >||</li>
+                            <li><a href="DangNhap.aspx" runat="server" id="btnLogout"> <i class="fa-solid fa-user"></i> Đăng nhập </a></li>
+                            <li><a href="DangNhap.aspx" runat="server" id="A1" onclick="btnLogout_Click"></a></li>
+                        </ul>
+                    </div>
+                </nav>
           </div>
-         <script>
+           <script>
             $(document).ready(function () {
                 // Hide submenu initially
                 $('.submenu').hide();
@@ -64,7 +64,6 @@
             });
         </script>
        </div>
-         <script src="./JS/Setting.js"></script>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

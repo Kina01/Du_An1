@@ -6,6 +6,7 @@
 <head runat="server">
     <link rel="stylesheet" href="/CSS/Login.css" />
     <link rel="icon" type="image/png" href="Images/DangNhap.png"/>
+    <script src="/Icons/fontawesome-free-6.5.1-web/js/all.min.js" ></script>
     <title></title>
 </head>
 <body>
@@ -19,10 +20,7 @@
                 </div>
                 <div class="row_Ip">
                     <label for="" class="title_Ip_Form">Password</label>
-                    <asp:TextBox ID="txtPassword" runat="server" TextMode="SingleLine"></asp:TextBox>
-                </div>
-                <div>
-                    <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" AutoPostBack="true" Text="Hiện mật khẩu" />
+                    <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
                 </div>
                 <div class="txtbingBug">
                     <asp:TextBox ForeColor="Red" ID="txtbingBug" runat="server" style="margin-top:10px;" BorderStyle="None" Width="272px"/>
@@ -31,10 +29,11 @@
                     <asp:Button ID="btnLogin" runat="server" Text="Đăng Nhập" style="min-width: 100%;
                                                                                      padding: 8px 4px;
                                                                                      border: 1px solid black;
-                                                                                     border-radius: 50px;
+                                                                                     border-radius: 13px;
                                                                                      background-color: rgba(56,53,76,45);
                                                                                      margin-top:10px;
                                                                                      color: #fff;
+                                                                                     cursor: pointer;
                                                                                      " OnClick="btnLogin_Click"
                      />
                 </div>

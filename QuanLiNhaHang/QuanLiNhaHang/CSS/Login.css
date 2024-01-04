@@ -16,7 +16,7 @@
 
 .logonForm {
     width: 300px;
-    height: 240px;
+    height: 225px;
     padding: 20px;
     background-color: #fff;
     border: 2px solid rgb(0, 174, 255);
@@ -61,6 +61,7 @@ h2 {
 
 .row_Ip {
     margin: 10px 0;
+    display:flex;
 }
 
 .contain_Btn {
@@ -80,5 +81,4 @@ h2 {
     background-color: rgba(56,53,76,45);
     color: #fff;
 }
-
 

@@ -65,16 +65,5 @@ namespace QuanLiNhaHang
 
         }
 
-        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            //if (CheckBox1.Checked)
-            //{
-            //    txtPassword.TextMode = TextBoxMode.SingleLine;
-            //}
-            //else
-            //{
-            //    txtPassword.TextMode = TextBoxMode.Password;
-            //}
-        }
     }
 }

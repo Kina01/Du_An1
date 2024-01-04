@@ -2160,7 +2160,6 @@
     <Content Include="Images\ThucDon.png" />
     <Content Include="Images\TrangChu.png" />
     <Content Include="JS\javascrip.js" />
-    <Content Include="JS\Setting.js" />
     <Content Include="Web.config" />
     <Content Include="TrangChu.aspx" />
     <Content Include="ThucDon.aspx" />
