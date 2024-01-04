@@ -11,23 +11,25 @@ namespace DTO_QuanLiNhaHang
         private int id;
         private string maBan;
         private string maMon;
+        private int soLuong;
 
-        protected int Id { get => id; set => id = value; }
-        protected string MaBan { get => maBan; set => maBan = value; }
-        protected string MaMon { get => maMon; set => maMon = value; }
+        public int Id { get => id; set => id = value; }
+        public string MaBan { get => maBan; set => maBan = value; }
+        public string MaMon { get => maMon; set => maMon = value; }
+        public int SoLuong { get => soLuong; set => soLuong = value; }
 
         public Ban_MonAnDTO()
         {
-            Id = 0;
             MaBan = "";
             MaMon = "";
+            SoLuong = 0;
         }
 
-        public Ban_MonAnDTO(int id, string maBan, string maMon)
+        public Ban_MonAnDTO(string maBan, string maMon, int soLuong)
         {
-            this.Id = id;
             this.MaMon = maMon;
-            this.MaBan = MaBan;
+            this.MaBan = maBan;
+            this.SoLuong = soLuong;
         }
     }
 }

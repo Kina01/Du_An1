@@ -1,0 +1,59 @@
+﻿.BanMonAn {
+    margin: 0;
+    z-index: 2;
+    padding: 0;
+    width: 100vw;
+    height: 85vh;
+    background-image: url("../Images/Background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.BanMonAn-1 {
+    margin-bottom: 300px;
+    margin-right: 50px;
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid;
+    border: none;
+    padding: 5px;
+    color: black;
+}
+
+.row {
+    margin-top: 5px;
+}
+
+.title {
+    display: inline-block;
+    width: 90px;
+    color: aqua;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.ThongBao {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: #009900;
+}
+
+.bang {
+    overflow-y: auto;
+    overflow-x: hidden; /* Sử dụng thanh cuộn dọc khi cần thiết */
+    max-height: 350px; /* Điều chỉnh chiều cao tối đa trước khi xuất hiện thanh cuộn */
+    padding-right: 20px; /* Tạo khoảng trống để tránh việc che phủ nội dung */
+    display: block; /* Hiển thị phần nội dung theo chiều dọc */
+    white-space: nowrap;
+}
+
+    .bang .SoLuongColumn {
+        text-align: center; /* Căn giữa nội dung trong cột Số lượng */
+        width: 170px;
+    }

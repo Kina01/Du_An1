@@ -50,23 +50,6 @@ namespace DAL_QuanLiNhaHang
             return data;
         }
 
-        //Phương thức lấy tên món ăn lên form
-        public DataTable loadBanMonAnDTO()
-        {
-            DataTable data = new DataTable();
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                connection.Open();
-                string sql = @"SELECT Ban_MonAn.MaMon, ThucDon.TenMon
-                                JOIN ThucDon 
-                                ON Ban_MonAn.MaMon = ThucDon.MaMon";
-                SqlCommand cmd = new SqlCommand(sql, connection);
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                da.Fill(data);
-            }
-            return data;
-        }
-
         //Phương thức Lưu đặt bàn
         public bool saveDatBan(DatBanDTO db)
         {
@@ -240,24 +223,6 @@ namespace DAL_QuanLiNhaHang
                 }
             }
         }
-        //// Phương thức này để xóa ThucDonDTO từ cơ sở dữ liệu
-        //public bool XoaThucDon(string maMon)
-        //{
-        //    using (SqlConnection connection = new SqlConnection(connectionString))
-        //    {
-        //        string sql = "DELETE FROM ThucDon WHERE MaMon = @maMon";
-
-        //        using (SqlCommand cmd = new SqlCommand(sql, connection))
-        //        {
-        //            cmd.Parameters.AddWithValue("@maMon", maMon);
-
-        //            connection.Open();
-        //            int result = cmd.ExecuteNonQuery();
-
-        //            return (result >= 1);
-        //        }
-        //    }
-        //}
 
         public bool XoaThucDon(string maMon)
         {
@@ -277,5 +242,82 @@ namespace DAL_QuanLiNhaHang
             }
         }
 
+        //Phương thức lưu món khi khách gọi
+        public bool saveBanMonAn(Ban_MonAnDTO banMonAn)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = @"INSERT INTO Ban_MonAn (MaBan, MaMon, SoLuong)
+                                VALUES (@maban, (SELECT MaMon FROM ThucDon WHERE MaMon = @mamon), @soluong)";
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@maban", banMonAn.MaBan);
+                cmd.Parameters.AddWithValue("@mamon", banMonAn.MaMon);
+                cmd.Parameters.AddWithValue("@soluong", banMonAn.SoLuong);
+                connection.Open();
+                int result = cmd.ExecuteNonQuery();
+                return (result >= 1);
+            }
+        }
+
+        //Phương thức lấy tên món ăn lên form
+        public DataTable loadBanMonAnDTO(string maBan)
+        {
+            DataTable data = new DataTable();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string sql = @"SELECT Ban_MonAn.MaMon, ThucDon.TenMon, Ban_MonAn.SoLuong FROM Ban_MonAn
+                                JOIN ThucDon 
+                                ON Ban_MonAn.MaMon = ThucDon.MaMon
+                                WHERE MaBan = @maban";
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@maban", maBan);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(data);
+            }
+            return data;
+        }
+
+        //Phương thức lấy trạng thái bàn
+        public string getMaBan(string maBan)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT MaBan FROM Ban WHERE MaBan = @MaBan";
+
+                using (SqlCommand cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@MaBan", maBan);
+                    connection.Open();
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            maBan = reader["MaBan"].ToString();
+                        }
+                    }
+                }
+            }
+
+            return maBan;
+        }
+
+        public bool xoaMonAn(Ban_MonAnDTO banAn)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = "DELETE FROM Ban_MonAn WHERE MaMon = @maMon AND SoLuong = @soluong";
+
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
+                {
+                    cmd.Parameters.AddWithValue("@maMon", banAn.MaMon);
+                    cmd.Parameters.AddWithValue("@soluong", banAn.SoLuong);
+                    connection.Open();
+                    int result = cmd.ExecuteNonQuery();
+                    return (result > 0);
+                }
+            }
+        }
     }
 }

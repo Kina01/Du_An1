@@ -31,5 +31,9 @@ namespace BUS_QuanLiNhaHang
             return banDAL.GetTrangThaiBan(maBan);
         }
 
+        public string getMaBan(string maBan)
+        {
+            return banDAL.getMaBan(maBan);
+        }
     }
 }

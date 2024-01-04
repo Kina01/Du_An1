@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Ban_MonAn.css" />
+    <Content Include="TestBan_MonAn.aspx" />
     <Content Include="CSS\Ban.css" />
     <Content Include="CSS\DatBan.css" />
     <Content Include="CSS\Footer.css" />
@@ -2166,8 +2168,24 @@
     <Content Include="ThanhToan.aspx" />
     <Content Include="HoaDon.aspx" />
     <Content Include="SettingThucDon.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn1.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn3.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn4.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn5.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn6.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn7.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn8.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn2.aspx" />
+    <Content Include="Form_Ban_MonAn\Ban_MonAn9.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestBan_MonAn.aspx.cs">
+      <DependentUpon>TestBan_MonAn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestBan_MonAn.aspx.designer.cs">
+      <DependentUpon>TestBan_MonAn.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2224,6 +2242,69 @@
     </Compile>
     <Compile Include="SettingThucDon.aspx.designer.cs">
       <DependentUpon>SettingThucDon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn1.aspx.cs">
+      <DependentUpon>Ban_MonAn1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn1.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn3.aspx.cs">
+      <DependentUpon>Ban_MonAn3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn3.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn4.aspx.cs">
+      <DependentUpon>Ban_MonAn4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn4.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn5.aspx.cs">
+      <DependentUpon>Ban_MonAn5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn5.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn6.aspx.cs">
+      <DependentUpon>Ban_MonAn6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn6.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn7.aspx.cs">
+      <DependentUpon>Ban_MonAn7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn7.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn8.aspx.cs">
+      <DependentUpon>Ban_MonAn8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn8.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn2.aspx.cs">
+      <DependentUpon>Ban_MonAn2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn2.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn9.aspx.cs">
+      <DependentUpon>Ban_MonAn9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_Ban_MonAn\Ban_MonAn9.aspx.designer.cs">
+      <DependentUpon>Ban_MonAn9.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@
             <tr>
                 <td>
                     <div>
-                        <a href="DatBan.aspx" class=""> Bàn 1  </a>
+                        <a href="Form_Ban_MonAn/Ban_MonAn1.aspx" class=""> Bàn 1  </a>
                     <div>
                         <asp:Label ID="Label10" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 7 người "></asp:Label> 
                     </div>

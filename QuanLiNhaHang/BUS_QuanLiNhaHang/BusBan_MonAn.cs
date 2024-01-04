@@ -13,9 +13,19 @@ namespace BUS_QuanLiNhaHang
     {
         Dataprovider banAn = new Dataprovider();
 
-        public DataTable loadBan_MonAn()
+        public DataTable loadBan_MonAn(Ban_MonAnDTO banMonAn)
         {
-            return banAn.loadBanMonAnDTO();
+            return banAn.loadBanMonAnDTO(banMonAn.MaBan);
+        }
+
+        public bool saveBanAn(Ban_MonAnDTO banMonAn)
+        {
+            return banAn.saveBanMonAn(banMonAn);
+        }
+
+        public bool deleteMonAn(Ban_MonAnDTO banMonAn)
+        {
+            return banAn.xoaMonAn(banMonAn);
         }
     }
 }
