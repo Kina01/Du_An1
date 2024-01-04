@@ -1,16 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DangNhap.aspx.cs" Inherits="QuanLiNhaHang.DangNhap" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="QuanLiNhaHang.WebForm2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<link rel="stylesheet" href="/CSS/Login.css" />
+<link rel="icon" type="image/png" href="Images/DangNhap.png"/>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <link rel="stylesheet" href="/CSS/Login.css" />
-    <link rel="icon" type="image/png" href="Images/DangNhap.png"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-         <div class="container_container_login" style="">
+     <div class="container_container_login" style="">
             <div class="logonForm">
                 <h2 class="title_Form">Login</h2>
                 <div class="row_Ip">
@@ -41,6 +36,4 @@
             </div>
         </div>
     <script src="./JS/javascrip.js"></script>
-    </form>
-</body>
-</html>
+</asp:Content>

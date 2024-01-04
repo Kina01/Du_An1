@@ -19,7 +19,7 @@
                     </div>
                 </td>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 2 </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn2.aspx"> Bàn 2 </a>
                     <div>
                         <asp:Label ID="Label11" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 10 người "></asp:Label> 
                     </div>
@@ -29,7 +29,7 @@
                     </div>
                 </td>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 3  </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn3.aspx"> Bàn 3  </a>
                     <div>
                         <asp:Label ID="Label12" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 5 người "></asp:Label> 
                     </div>
@@ -41,7 +41,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 4  </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn4.aspx"> Bàn 4  </a>
                     <div>
                         <asp:Label ID="Label13" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 7 người "></asp:Label> 
                     </div>
@@ -51,7 +51,7 @@
                     </div>
               </td>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 5  </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn5.aspx"> Bàn 5  </a>
                     <div>
                         <asp:Label ID="Label14" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 9 người "></asp:Label> 
                     </div>
@@ -61,7 +61,7 @@
                     </div>
                </td>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 6  </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn6.aspx"> Bàn 6  </a>
                     <div>
                         <asp:Label ID="Label15" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 5 người "></asp:Label> 
                     </div>
@@ -73,7 +73,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 7  </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn7.aspx"> Bàn 7  </a>
                     <div>
                         <asp:Label ID="Label16" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 8 người "></asp:Label> 
                     </div>
@@ -83,7 +83,7 @@
                     </div>
                </td>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 8  </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn8.aspx"> Bàn 8  </a>
                     <div>
                         <asp:Label ID="Label17" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 11 người "></asp:Label> 
                     </div>
@@ -93,7 +93,7 @@
                     </div>
               </td>
                 <td>
-                    <a href="DatBan.aspx"> Bàn 9  </a>
+                    <a href="Form_Ban_MonAn/Ban_MonAn9.aspx"> Bàn 9  </a>
                     <div>
                         <asp:Label ID="Label18" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 5 người "></asp:Label> 
                     </div>

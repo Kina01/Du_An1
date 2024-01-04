@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\Ban_MonAn.css" />
+    <Content Include="DangNhap.aspx" />
     <Content Include="TestBan_MonAn.aspx" />
     <Content Include="CSS\Ban.css" />
     <Content Include="CSS\DatBan.css" />
@@ -2162,7 +2163,7 @@
     <Content Include="JS\Setting.js" />
     <Content Include="Web.config" />
     <Content Include="TrangChu.aspx" />
-    <Content Include="DangNhap.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="ThucDon.aspx" />
     <Content Include="DatBan.aspx" />
     <Content Include="ThanhToan.aspx" />
@@ -2179,6 +2180,13 @@
     <Content Include="Form_Ban_MonAn\Ban_MonAn9.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TestBan_MonAn.aspx.cs">
       <DependentUpon>TestBan_MonAn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2201,12 +2209,12 @@
     <Compile Include="TrangChu.aspx.designer.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DangNhap.aspx.cs">
-      <DependentUpon>DangNhap.aspx</DependentUpon>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DangNhap.aspx.designer.cs">
-      <DependentUpon>DangNhap.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="ThucDon.aspx.cs">
       <DependentUpon>ThucDon.aspx</DependentUpon>
