@@ -68,8 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\Ban_MonAn.css" />
+    <Content Include="CSS\KhachHang.css" />
     <Content Include="DangNhap.aspx" />
-    <Content Include="TestBan_MonAn.aspx" />
     <Content Include="CSS\Ban.css" />
     <Content Include="CSS\DatBan.css" />
     <Content Include="CSS\Footer.css" />
@@ -78,7 +78,7 @@
     <Content Include="CSS\Login.css" />
     <Content Include="CSS\Menu.css" />
     <Content Include="CSS\SettingThucDon.css" />
-    <Content Include="CSS\ThanhToan.css" />
+    <Content Include="CSS\HoaDonThanhToan.css" />
     <Content Include="Icons\fontawesome-free-6.5.1-web\css\all.css" />
     <Content Include="Icons\fontawesome-free-6.5.1-web\css\all.min.css" />
     <Content Include="Icons\fontawesome-free-6.5.1-web\css\brands.css" />
@@ -2164,7 +2164,7 @@
     <Content Include="TrangChu.aspx" />
     <Content Include="ThucDon.aspx" />
     <Content Include="DatBan.aspx" />
-    <Content Include="ThanhToan.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan1.aspx" />
     <Content Include="HoaDon.aspx" />
     <Content Include="SettingThucDon.aspx" />
     <Content Include="Form_Ban_MonAn\Ban_MonAn1.aspx" />
@@ -2176,6 +2176,15 @@
     <Content Include="Form_Ban_MonAn\Ban_MonAn8.aspx" />
     <Content Include="Form_Ban_MonAn\Ban_MonAn2.aspx" />
     <Content Include="Form_Ban_MonAn\Ban_MonAn9.aspx" />
+    <Content Include="DSKhachHang.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan2.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan3.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan4.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan5.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan6.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan7.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan8.aspx" />
+    <Content Include="Form_ThanhToan\HoaDonThanhToan9.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DangNhap.aspx.cs">
@@ -2184,13 +2193,6 @@
     </Compile>
     <Compile Include="DangNhap.aspx.designer.cs">
       <DependentUpon>DangNhap.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TestBan_MonAn.aspx.cs">
-      <DependentUpon>TestBan_MonAn.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TestBan_MonAn.aspx.designer.cs">
-      <DependentUpon>TestBan_MonAn.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -2221,12 +2223,12 @@
     <Compile Include="DatBan.aspx.designer.cs">
       <DependentUpon>DatBan.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ThanhToan.aspx.cs">
-      <DependentUpon>ThanhToan.aspx</DependentUpon>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan1.aspx.cs">
+      <DependentUpon>HoaDonThanhToan1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ThanhToan.aspx.designer.cs">
-      <DependentUpon>ThanhToan.aspx</DependentUpon>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan1.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan1.aspx</DependentUpon>
     </Compile>
     <Compile Include="HoaDon.aspx.cs">
       <DependentUpon>HoaDon.aspx</DependentUpon>
@@ -2304,6 +2306,69 @@
     </Compile>
     <Compile Include="Form_Ban_MonAn\Ban_MonAn9.aspx.designer.cs">
       <DependentUpon>Ban_MonAn9.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DSKhachHang.aspx.cs">
+      <DependentUpon>DSKhachHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DSKhachHang.aspx.designer.cs">
+      <DependentUpon>DSKhachHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan2.aspx.cs">
+      <DependentUpon>HoaDonThanhToan2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan2.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan3.aspx.cs">
+      <DependentUpon>HoaDonThanhToan3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan3.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan4.aspx.cs">
+      <DependentUpon>HoaDonThanhToan4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan4.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan5.aspx.cs">
+      <DependentUpon>HoaDonThanhToan5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan5.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan6.aspx.cs">
+      <DependentUpon>HoaDonThanhToan6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan6.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan7.aspx.cs">
+      <DependentUpon>HoaDonThanhToan7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan7.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan8.aspx.cs">
+      <DependentUpon>HoaDonThanhToan8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan8.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan9.aspx.cs">
+      <DependentUpon>HoaDonThanhToan9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_ThanhToan\HoaDonThanhToan9.aspx.designer.cs">
+      <DependentUpon>HoaDonThanhToan9.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

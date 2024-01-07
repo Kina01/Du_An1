@@ -10,7 +10,7 @@
                     <div>
                         <a href="Form_Ban_MonAn/Ban_MonAn1.aspx" class=""> Bàn 1  </a>
                     <div>
-                        <asp:Label ID="Label10" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 7 người "></asp:Label> 
+                        <asp:Label ID="Label10" Font-Size="20px" runat="server" Text="Số lượng khách/bàn : 10 người "></asp:Label> 
                     </div>
                     <div class="thanban">
                         <asp:Label CssClass="lbl" ID="Label1" Font-Size="20px" runat="server" Text="Trạng thái : "></asp:Label> 

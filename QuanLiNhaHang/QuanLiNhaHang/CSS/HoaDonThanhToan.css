@@ -1,0 +1,61 @@
+﻿.HoaDonThanhToan {
+    margin: 0;
+    z-index: 2;
+    padding: 0;
+    width: 100vw;
+    height: 85vh;
+    background-image: url("../Images/Background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.HoaDonThanhToan-1 {
+    width: 100%; /* Đảm bảo phần tử Menu-1 chiếm toàn bộ chiều rộng của Gridview */
+    height: 530px; /* Điều chỉnh chiều cao của Menu-1 tùy thuộc vào kích thước bạn muốn */
+    background-color: transparent;
+    border: none; /* Loại bỏ viền */
+    color: black;
+    overflow-y: auto; /* Hiển thị thanh cuộn khi cần thiết */
+    margin-top: 70px; /* Cách lề dưới của phần tử khác */
+}
+
+.maban {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(0, 206, 209);
+}
+
+.thongtin {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Column{
+    text-align: center;
+}
+
+.tieude {
+    font-size: 25px;
+    color: rgb(0, 206, 209);
+}
+
+.tien {
+    pointer-events: none;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.submit {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background: #50A625;
+    color: #E6F1D8;
+}

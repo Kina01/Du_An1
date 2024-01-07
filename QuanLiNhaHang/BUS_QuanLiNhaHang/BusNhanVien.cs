@@ -8,9 +8,9 @@ using DTO_QuanLiNhaHang;
 
 namespace BUS_QuanLiNhaHang
 {
-    public class BusDangNhap
+    public class BusNhanVien
     {
-        Dataprovider dp = new Dataprovider();
+        DAL_NhanVien dp = new DAL_NhanVien();
 
         //Phương thức check Account
         public bool CheckAccount(string tk, string mk)

@@ -86,7 +86,7 @@ namespace DAL_QuanLiNhaHang
             }
         }
 
-        //Phương thức cập nhật lại trạng thái bàn trong cơ sở dữ liệu sau khi dặt bàn thành công
+        //Phương thức cập nhật lại trạng thái bàn trong cơ sở dữ liệu
         public bool updateBan(BanDTO ban)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -182,7 +182,7 @@ namespace DAL_QuanLiNhaHang
             return false;
         }
 
-        //Phương thức xóa đặt bàn khi đặt bàn thất bại
+        //Phương thức xóa đặt bàn
         public bool deleteDatBan(DatBanDTO db)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -283,9 +283,9 @@ namespace DAL_QuanLiNhaHang
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "SELECT MaBan FROM Ban WHERE MaBan = @MaBan";
+                string sql = "SELECT MaBan FROM Ban WHERE MaBan = @MaBan";
 
-                using (SqlCommand cmd = new SqlCommand(query, connection))
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
                 {
                     cmd.Parameters.AddWithValue("@MaBan", maBan);
                     connection.Open();
@@ -318,6 +318,182 @@ namespace DAL_QuanLiNhaHang
                     return (result > 0);
                 }
             }
+        }
+
+        public DataTable loadKH()
+        {
+            DataTable data = new DataTable();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string sql = @"SELECT * FROM KhachHang";
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(data);
+            }
+            return data;
+        }
+
+        public DataTable loadDuLieuDeThanhToan(string maBan)
+        {
+            DataTable data = new DataTable();
+            
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string sql = @"SELECT ThucDon.TenMon, Ban_MonAn.SoLuong, SUM(ThucDon.DonGia * Ban_MonAn.SoLuong) AS Gia
+                                FROM Ban_MonAn JOIN ThucDon
+                                ON Ban_MonAn.MaMon = ThucDon.MaMon
+                                WHERE MaBan = @maban
+                                GROUP BY ThucDon.TenMon, Ban_MonAn.SoLuong";
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@maban", maBan);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(data);
+            }
+            return data;
+        }
+
+        public float tongHoaDon(string maBan)
+        {
+            float tong = 0;
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = @"SELECT SUM(ThucDon.DonGia * Ban_MonAn.SoLuong) AS TongHoaDon
+                                FROM Ban_MonAn JOIN ThucDon
+                                ON Ban_MonAn.MaMon = ThucDon.MaMon
+                                WHERE MaBan = @maban";
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
+                {
+                    cmd.Parameters.AddWithValue("@MaBan", maBan);
+                    connection.Open();
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            tong = float.Parse(reader["TongHoaDon"].ToString());
+                        }
+                    }
+                }
+            }
+            return tong;
+        }
+
+        public string loadTenKH()
+        {
+            string ten = "";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = @"SELECT DISTINCT KH.TenKhachHang
+                                FROM KhachHang KH
+                                JOIN DatBan DB ON KH.MaKhachHang = DB.MaKhachHang
+                                JOIN Ban_MonAn BM ON DB.MaBan = BM.MaBan";
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
+                {
+                    connection.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            ten = reader["TenKhachHang"].ToString();
+                        }
+                    }
+                }
+            }
+            return ten;
+        }
+
+        public string getMaKhachHang(string tenKhachHang)
+        {
+            string maKhachHang = "";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = "SELECT MaKhachHang FROM KhachHang WHERE TenKhachHang = @tenkhachhang";
+
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
+                {
+                    cmd.Parameters.AddWithValue("@tenkhachhang", tenKhachHang);
+                    connection.Open();
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            maKhachHang = reader["MaKhachHang"].ToString();
+                        }
+                    }
+                }
+            }
+
+            return maKhachHang;
+        }
+
+        public bool saveHoaDon(HoaDonDTO hoaDonDTO)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                    string sql = @"INSERT INTO HoaDon (MaKhachHang, ThanhTien)
+                                   VALUES ( @makhachhang, @thanhtien)";
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@makhachhang", hoaDonDTO.MaKhachHang);
+                cmd.Parameters.AddWithValue("@thanhtien", hoaDonDTO.ThanhTien);
+                connection.Open();
+                int result = cmd.ExecuteNonQuery();
+                return (result >= 1);
+            }
+        }
+
+        public bool xoaDatBan(DatBanDTO datBanDTO)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = "DELETE FROM DatBan WHERE Maban = @maban";
+
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
+                {
+                    cmd.Parameters.AddWithValue("@maban", datBanDTO.MaBan);
+                    connection.Open();
+                    int result = cmd.ExecuteNonQuery();
+                    return (result > 0);
+                }
+            }
+        }
+
+        public bool xoaBanAn(Ban_MonAnDTO ban_MonAnDTO)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = "DELETE FROM Ban_MonAn WHERE Maban = @maban";
+
+                using (SqlCommand cmd = new SqlCommand(sql, connection))
+                {
+                    cmd.Parameters.AddWithValue("@maban", ban_MonAnDTO.MaBan);
+                    connection.Open();
+                    int result = cmd.ExecuteNonQuery();
+                    return (result > 0);
+                }
+            }
+        }
+
+        public bool updateBan1(BanDTO ban)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string sql = @"UPDATE BAN SET TrangThai = N'Trống'
+                            WHERE MaBan = @maban";
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@maban", ban.MaBan);
+                connection.Open();
+                int result = cmd.ExecuteNonQuery();
+
+                if (result >= 1)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

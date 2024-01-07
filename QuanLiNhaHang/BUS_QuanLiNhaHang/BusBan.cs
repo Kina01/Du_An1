@@ -11,19 +11,19 @@ namespace BUS_QuanLiNhaHang
 {
     public class BusBan
     {
-        Dataprovider banDAL = new Dataprovider();
+        DAL_Ban banDAL = new DAL_Ban();
 
-        //Phường thức update lại trạng thái bàn trong csdl
+        //Phường thức update lại trạng thái bàn thành đã có khách trong csdl
         public bool upBan(BanDTO ban)
         {
             return banDAL.updateBan(ban);
         }
 
         // Phương thức lấy danh sách tất cả các bàn
-        public List<BanDTO> loadDanhSachBan()
-        {
-            return banDAL.loadDanhSachBan();
-        }
+        //public List<BanDTO> loadDanhSachBan()
+        //{
+        //    return banDAL.loadDanhSachBan();
+        //}
 
         // Phương thức lấy trạng thái của một bàn dựa trên mã bàn
         public string GetTrangThaiBan(string maBan)
@@ -31,9 +31,16 @@ namespace BUS_QuanLiNhaHang
             return banDAL.GetTrangThaiBan(maBan);
         }
 
+        // Phương thức lấy mã bàn
         public string getMaBan(string maBan)
         {
             return banDAL.getMaBan(maBan);
+        }
+
+        //Phường thức update lại trạng thái bàn thành trống trong csdl
+        public bool upBan1(BanDTO ban)
+        {
+            return banDAL.updateBan1(ban);
         }
     }
 }

@@ -10,15 +10,15 @@
 namespace QuanLiNhaHang {
     
     
-    public partial class WebForm5 {
+    public partial class WebForm2 {
         
         /// <summary>
-        /// Menu1 control.
+        /// gvKH control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu Menu1;
+        protected global::System.Web.UI.WebControls.GridView gvKH;
     }
 }

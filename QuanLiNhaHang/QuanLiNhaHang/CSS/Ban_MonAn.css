@@ -47,13 +47,14 @@
 .bang {
     overflow-y: auto;
     overflow-x: hidden; /* Sử dụng thanh cuộn dọc khi cần thiết */
+    width: 100%;
     max-height: 350px; /* Điều chỉnh chiều cao tối đa trước khi xuất hiện thanh cuộn */
     padding-right: 20px; /* Tạo khoảng trống để tránh việc che phủ nội dung */
     display: block; /* Hiển thị phần nội dung theo chiều dọc */
     white-space: nowrap;
 }
 
-    .bang .SoLuongColumn {
-        text-align: center; /* Căn giữa nội dung trong cột Số lượng */
-        width: 170px;
-    }
+.bang .SoLuongColumn {
+    text-align: center; /* Căn giữa nội dung trong cột Số lượng */
+    width: 170px;
+}

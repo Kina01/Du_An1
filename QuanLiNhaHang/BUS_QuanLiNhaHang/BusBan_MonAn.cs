@@ -11,7 +11,7 @@ namespace BUS_QuanLiNhaHang
 {
     public class BusBan_MonAn
     {
-        Dataprovider banAn = new Dataprovider();
+        DAL_BanMonAn banAn = new DAL_BanMonAn();
 
         public DataTable loadBan_MonAn(Ban_MonAnDTO banMonAn)
         {
@@ -26,6 +26,16 @@ namespace BUS_QuanLiNhaHang
         public bool deleteMonAn(Ban_MonAnDTO banMonAn)
         {
             return banAn.xoaMonAn(banMonAn);
+        }
+
+        public DataTable loadDuLieuDeThanhToan(Ban_MonAnDTO banMonAn)
+        {
+            return banAn.loadDuLieuDeThanhToan(banMonAn.MaBan);
+        }
+
+        public bool xoaBanAn(Ban_MonAnDTO banMonAn)
+        {
+            return banAn.xoaBanAn(banMonAn);
         }
     }
 }

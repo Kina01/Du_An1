@@ -23,7 +23,7 @@ namespace QuanLiNhaHang
 
         public void LayDuLieuVaoGridView()
         {
-            gvThucDon.DataSource =thucDon.loadThucDon();
+            gvThucDon.DataSource = thucDon.loadThucDon();
             gvThucDon.DataBind();
         }
     }

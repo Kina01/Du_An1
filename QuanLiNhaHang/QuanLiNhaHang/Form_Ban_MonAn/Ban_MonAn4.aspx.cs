@@ -16,6 +16,7 @@ namespace QuanLiNhaHang
             if (!IsPostBack)
             {
                 LoadMaban("B4", txtMaBan);
+                LayDuLieuVaoGridView();
             }
         }
 
@@ -113,7 +114,7 @@ namespace QuanLiNhaHang
 
         protected void btnThanhToan_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ThanhToan.aspx");
+            Response.Redirect("/Form_ThanhToan/HoaDonThanhToan4.aspx");
         }
     }
 }

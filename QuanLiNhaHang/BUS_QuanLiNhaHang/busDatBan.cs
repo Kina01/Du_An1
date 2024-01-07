@@ -10,16 +10,21 @@ namespace BUS_QuanLiNhaHang
 {
     public class BusDatBan
     {
-        Dataprovider datBanDAL = new Dataprovider();
+        DAL_DatBan datBanDAL = new DAL_DatBan();
 
-        public bool SAVEDatBan(DatBanDTO datBan)
+        public bool SAVEDatBan(DatBanDTO datBanDTO)
         {
-            return datBanDAL.saveDatBan(datBan);
+            return datBanDAL.saveDatBan(datBanDTO);
         }
 
-        public bool DeleteDatBan(DatBanDTO datBan)
+        public bool DeleteDatBan(DatBanDTO datBanDTO)
         {
-            return datBanDAL.deleteDatBan(datBan);
+            return datBanDAL.deleteDatBan(datBanDTO);
+        }
+
+        public bool deleteDatBan(DatBanDTO datBanDTO)
+        {
+            return datBanDAL.xoaDatBan(datBanDTO);
         }
     }
 }

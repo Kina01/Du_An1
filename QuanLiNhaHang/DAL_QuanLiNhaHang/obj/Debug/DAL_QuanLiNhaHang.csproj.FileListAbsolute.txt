@@ -88,3 +88,12 @@ D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\
 D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.csproj.CopyComplete
 D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.dll
 D:\CongNghe_DotNet\Du_An_Quan_Ly_Cua_Hang\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\bin\Debug\DAL_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\bin\Debug\DTO_QuanLiNhaHang.pdb
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.csprojAssemblyReference.cache
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.csproj.CopyComplete
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.dll
+D:\CongNghe_DotNet\DuAn\Du_An\QuanLiNhaHang\DAL_QuanLiNhaHang\obj\Debug\DAL_QuanLiNhaHang.pdb

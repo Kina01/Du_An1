@@ -1,0 +1,25 @@
+﻿.kh {
+    margin: 0;
+    z-index: 2;
+    padding: 0;
+    width: 100vw;
+    height: 85vh;
+    background-image: url("../Images/Background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kh-1 {
+    width: 100%; /* Đảm bảo phần tử Menu-1 chiếm toàn bộ chiều rộng của Gridview */
+    height: 530px; /* Điều chỉnh chiều cao của Menu-1 tùy thuộc vào kích thước bạn muốn */
+    background-color: transparent;
+    border: none; /* Loại bỏ viền */
+    color: black;
+    overflow-y: auto; /* Hiển thị thanh cuộn khi cần thiết */
+    margin-top: 70px; /* Cách lề dưới của phần tử khác */
+    display: flex;
+    justify-content: center;
+}

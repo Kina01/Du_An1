@@ -15,7 +15,7 @@ namespace QuanLiNhaHang
 
         }
 
-        BusDangNhap DN = new BusDangNhap();
+        BusNhanVien DN = new BusNhanVien();
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {

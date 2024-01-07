@@ -16,22 +16,17 @@ namespace QuanLiNhaHang
             if (!IsPostBack)
             {
                 LoadMaban("B1", txtMaBan);
+                LayDuLieuVaoGridView();
             }
         }
 
         BusBan_MonAn busBanMonAn = new BusBan_MonAn();
 
-        private void LoadMaban(string maBan, TextBox txtTrangThai)
+        private void LoadMaban(string maBan, TextBox txtMaBan)
         {
-            // Tạo đối tượng BUS để truy xuất dữ liệu từ CSDL
             BusBan banBUS = new BusBan();
-
-            // Lấy mã bàn của bàn từ CSDL dựa vào mã bàn
-            // (Bạn cần thay đổi phương thức GetMaBan thành phương thức thực tế trong BusBan)
             string idBan = banBUS.getMaBan(maBan);
-
-            // Gán mã bàn vào TextBox tương ứng trên giao diện
-            txtTrangThai.Text = idBan;
+            txtMaBan.Text = idBan;
         }
 
         public Ban_MonAnDTO layMaBanFormBanMonAn()
@@ -62,7 +57,6 @@ namespace QuanLiNhaHang
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            BusBan_MonAn busBanMonAn = new BusBan_MonAn();
             Ban_MonAnDTO ban_MonAn = layDuLieuTuFormBanMonAn();
             bool result = busBanMonAn.saveBanAn(ban_MonAn);
             if (result)
@@ -89,7 +83,6 @@ namespace QuanLiNhaHang
         protected void btnDelete_Click(object sender, EventArgs e)
         {
             Ban_MonAnDTO banAn = layDuLieuMonTuFormBanMonAn();
-            busBanMonAn = new BusBan_MonAn();
             bool result = busBanMonAn.deleteMonAn(banAn);
 
             if (result)
@@ -113,7 +106,7 @@ namespace QuanLiNhaHang
 
         protected void btnThanhToan_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ThanhToan.aspx");
+            Response.Redirect("/Form_ThanhToan/HoaDonThanhToan1.aspx");
         }
     }
 }

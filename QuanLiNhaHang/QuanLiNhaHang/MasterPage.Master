@@ -28,7 +28,7 @@
                             <li class="has-submenu" ><a href="SettingThucDon.aspx" runat="server"> <i class="fa-solid fa-gear"></i> Cài đặt </a>
                                 <ul class="submenu">
                                     <li><a href="SettingThucDon.aspx">• Menu</a></li>
-                                    <li><a href="#">• Khách hàng</a></li>
+                                    <li><a href="DSKhachHang.aspx">• Khách hàng</a></li>
                                 </ul>
                             </li>
                             <li>

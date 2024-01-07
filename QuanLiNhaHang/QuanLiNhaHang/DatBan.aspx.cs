@@ -77,6 +77,8 @@ namespace QuanLiNhaHang
                     }
                     else
                     {
+                        datbanBUS.DeleteDatBan(datbanDTO);
+                        khachhangBUS.DeleteKhachHang(khachhangDTO);
                         ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Số người vượt quá giới hạn!');", true);
                     }
                 }

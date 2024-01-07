@@ -11,16 +11,18 @@ namespace BUS_QuanLiNhaHang
 {
     public class BusThucDon
     {
-        Dataprovider td = new Dataprovider();
+        DAL_ThucDon td = new DAL_ThucDon();
 
         public DataTable loadThucDon()
         {
             return td.loadThucDon();
         }
+
         public bool LuuThucDon(ThucDonDTO thucDon)
         {
             return td.LuuThucDon(thucDon);
         }
+
         public bool XoaThucDon(string maMon)
         {
             return td.XoaThucDon(maMon);
